@@ -1,0 +1,98 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Google Cloud credentials
+*.json
+!*example*.json
+gcp-key.json
+service-account*.json
+application_default_credentials.json
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+kube-config
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Helm
+charts/*.tgz
+.helmignore
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Archive files
+*.tar.gz
+*.zip
+*.rar
+
+# Node modules (if using any Node.js tools)
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Monitoring data
+prometheus-data/
+grafana-data/
+elasticsearch-data/
+
+# Certificate files
+*.pem
+*.crt
+*.key
+!tls-example.crt
